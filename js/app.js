@@ -2,8 +2,9 @@
 
 
 let answer = prompt('Do you think I studied at the University of Jordan?')
+
 function resultfun() {
-    switch (answer.toUpperCase()) {
+    switch (answer) {
         case 'y':
         case 'Yes':
         case 'YEs':
@@ -11,19 +12,20 @@ function resultfun() {
         case 'yES':
         case 'yeE':
         case 'yes':
+        case 'YES':
 
 
-            /*console.log('Great that is correct answer');*/
-            alert('Great that is  a correct answer');
-            let good = 0;
-            good = good + 1;
+            console.log('Great that is correct answer');
+            answer.toLowerCase()
+            
 
             break;
         case 'No':
         case 'nO':
         case 'no':
 
-            console.log('not correct Try to answer the next question ');
+         answer.toLowerCase()
+    
             break;
         default:
             console.log('just answer yes or no');
@@ -34,6 +36,7 @@ function resultfun() {
 
 
 resultfun();
+console.log(answer);
 
 
 
@@ -64,5 +67,3 @@ resultfun();
 
 
 
-answer = prompt('doyou')
-resultfun();
