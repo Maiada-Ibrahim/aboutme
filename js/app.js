@@ -278,8 +278,7 @@ for(let i=1 ; i<=6 ; i++ ){
   
   }
   
-  alert('youer  answer is  ' + youranswer  ) 
-  alert('the correct answer is  ' + cars  ) */
+   */
 
 
 // else while (answer==='')
@@ -291,43 +290,38 @@ for(let i=1 ; i<=6 ; i++ ){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+let answer = prompt('What kind of cars did you drive before').toLowerCase();
 
 let correct2 = 0
 let youranswer = [];
 let cars = ['kia', 'bmw', 'ford'];
-answer = prompt('Agine : What kind of cars did I drive before').toLowerCase();
 for (let i = 1; i <= 6; i++) {
-
   if (answer === cars[0] || answer === cars[1] || answer === cars[3]) {
     alert('Great that is the correct answer')
     correct2 = correct2 + 1;
     youranswer.push(answer);
     break;
 
-  } else if(answer === ''){
-   while (answer === '') { answer = prompt('Agine : What kind of cars did I drive before').toLowerCase(); }
-   youranswer.push(answer);
-   answer = prompt('Agine : What kind of cars did I drive before').toLowerCase();
-  }else if (answer === cars[0] || answer === cars[1] || answer === cars[3]) {
-  alert('not correct ')
-  youranswer.push(answer);
-  answer = prompt('Agine : What kind of cars did I drive before').toLowerCase();
-} 
-             
-             }
+  } else if (answer !== cars[0] && answer !== cars[1] && answer !== cars[2] && answer !== cars[2] && answer !== '') {
+    alert('not correct ')
+    youranswer.push(answer);
+    answer = prompt('What kind of cars did you drive before').toLowerCase();
 
-alert('youer  answer is  ' + youranswer)
-alert('the correct answer is  ' + cars)
+  } else
+   i=i+1;
+   while (answer == '') {
+    { answer = prompt('Agine : What kind of cars did I drive before').toLowerCase();
+      
+  }
+
+  }
+
+}
+
+alert('youer  answer is  ' + youranswer  ) 
+alert('the correct answer is  ' + cars  )
+
+
+
+
+
