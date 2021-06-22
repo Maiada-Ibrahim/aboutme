@@ -1,5 +1,5 @@
 /*'use strict'
-let username =prompt('To begin play with me ...what is your name ??')  
+let username =prompt('To begin play with me ...what is your name ??').toLowerCase();  
 
 alert('welcome to our website   '+ username + ' I think we will play afun game ')
 
@@ -10,15 +10,8 @@ let answer = prompt('Do you think I studied at the University of Jordan?')
     let out ='' ;
     switch (answer) {
         case 'y':
-        case 'Yes':
-        case 'YEs':
-        case 'yEs':
-        case 'yES':
-        case 'yeE':
         case 'yes':
-        case 'YES':
-        case 'Y':
-        case 'YeS':
+
 
 
 
@@ -29,12 +22,9 @@ let answer = prompt('Do you think I studied at the University of Jordan?')
             
 
             break;
-        case 'No':
-        case 'nO':
         case 'no':
         case 'n':
-        case 'N':
-        case 'NO':
+        
 
          out='no';
          return out;
@@ -85,7 +75,7 @@ let result = resultfun();
 
 
 
-        answer=prompt('Is the pizza my favoutit meal?')  
+        answer=prompt('Is the pizza my favoutit meal?') 
         resultfun();
          result = resultfun();
          alert('you answer is  ' + result);
@@ -140,6 +130,27 @@ let result = resultfun();
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 let answer = prompt('how much do you think I believe in love') 3
 let answer = prompt('How much do you think I can swim')2
 let answer = prompt('How do you think I am a social person?')4
@@ -159,9 +170,9 @@ if (answer === 3)  {
   alert('Great that is the correct answer')
   correct=correct + 1 ;
   break;
- } else if(answer < 5) {
+ } else if(answer <= 5) {
    alert("too high")
- } else if(answer>=6) {
+ } else if(answer>5) {
   alert ('too low ') 
 } else while ( !answer === 1 || !answer === 2 || !answer=== 3 || !answer=== 4 || !answer=== 5 || !answer=== 6 || !answer=== 8 || !answer=== 9 || !answer=== 10  )
 {   answer = parseInt(prompt('please enter a number from 1-10(How much do you think I believe in love?)')); }
@@ -179,9 +190,9 @@ for(let i=1 ; i<=4 ; i++ ){
     alert('Great that is the correct answer')
     correct=correct + 1 ;
     break;
-   } else if(answer < 4) {
+   } else if(answer <= 4) {
      alert("too high")
-   } else if(answer>=5) {
+   } else if(answer>4) {
     alert ('too low ') 
   } else while ( !answer === 1 || !answer === 2 || !answer=== 3 || !answer=== 4 || !answer=== 5 || !answer=== 6 || !answer=== 8 || !answer=== 9 || !answer=== 10  )
   {   answer = parseInt(prompt('please enter a number from 1-10(How much do you think I can swim)')); }
@@ -191,14 +202,14 @@ for(let i=1 ; i<=4 ; i++ ){
 
 
   for(let i=1 ; i<=4 ; i++ ){
-    let answer = parseInt (prompt('How much do you think I can swim'));
-    if (answer === 2)  {          
+    let answer = parseInt (prompt(''How do you think I am a social person?'));
+    if (answer === 4)  {          
       alert('Great that is the correct answer')
       correct=correct + 1 ;
       break;
-     } else if(answer < 4) {
+     } else if(answer >=2 && answer <= 6) {
        alert("too high")
-     } else if(answer>=5) {
+     } else if(answer=== 1 || answer>6) {
       alert ('too low ') 
     } else while ( !answer === 1 || !answer === 2 || !answer=== 3 || !answer=== 4 || !answer=== 5 || !answer=== 6 || !answer=== 8 || !answer=== 9 || !answer=== 10  )
     {   answer = parseInt(prompt('please enter a number from 1-10(How much do you think I can swim)')); }
@@ -208,14 +219,14 @@ for(let i=1 ; i<=4 ; i++ ){
 
 
     for(let i=1 ; i<=4 ; i++ ){
-      let answer = parseInt (prompt('How much do you think I can swim'));
-      if (answer === 2)  {          
+      let answer = parseInt (prompt('How do you think I am a calm person?'));
+      if (answer === 8)  {          
         alert('Great that is the correct answer')
         correct=correct + 1 ;
         break;
-       } else if(answer < 4) {
+       } else if(answer >= 6) {
          alert("too high")
-       } else if(answer>=5) {
+       } else if(answer<=6 ) {
         alert ('too low ') 
       } else while ( !answer === 1 || !answer === 2 || !answer=== 3 || !answer=== 4 || !answer=== 5 || !answer=== 6 || !answer=== 8 || !answer=== 9 || !answer=== 10  )
       {   answer = parseInt(prompt('please enter a number from 1-10(How much do you think I can swim)')); }
@@ -226,14 +237,14 @@ for(let i=1 ; i<=4 ; i++ ){
 
 
       for(let i=1 ; i<=4; i++ ){
-        let answer = parseInt (prompt('How much do you think I can swim'));
-        if (answer === 2)  {          
+        let answer = parseInt (prompt('How satisfied do you think I am that I studied computer engineering?'));
+        if (answer === 7)  {          
           alert('Great that is the correct answer')
           correct=correct + 1 ;
           break;
-         } else if(answer < 4) {
+         } else if(answer >= 5 && answer <=9) {
            alert("too high")
-         } else if(answer>=5) {
+         } else if(answer< 5 || answer===10 ) {
           alert ('too low ') 
         } else while ( !answer === 1 || !answer === 2 || !answer=== 3 || !answer=== 4 || !answer=== 5 || !answer=== 6 || !answer=== 8 || !answer=== 9 || !answer=== 10  )
         {   answer = parseInt(prompt('please enter a number from 1-10(How much do you think I can swim)')); }
@@ -242,7 +253,7 @@ for(let i=1 ; i<=4 ; i++ ){
 
 
         for(let i=1 ; i<=4 ; i++ ){
-          let answer = parseInt (prompt('How much do you think I can swim'));
+          let answer = parseInt (prompt(''));
           if (answer === 2)  {          
             alert('Great that is the correct answer')
             correct=correct + 1 ;
@@ -258,31 +269,7 @@ for(let i=1 ; i<=4 ; i++ ){
 
           prompt('youer correct answer is  ' + correct )*/
 
-/*let answer;
-let correct2 =0
-let youranswer = [] ;
-let cars = ['kia', 'bmw', 'ford'];
-for(let i=1 ; i<=6 ; i++ ){
- answer =  prompt('What kind of cars did you drive before').toLowerCase();
-  if (answer === cars[0] || answer === cars[1] || answer === cars[3])  {          
-    alert('Great that is the correct answer')
-    correct2=correct2 + 1 ;
-    youranswer.push(answer);
-    break;
-   
-   } else {
-    alert ('not correct ')
-    youranswer.push(answer);
-    
-  } 
-  
-  }
-  
-   */
 
-
-// else while (answer==='')
-// {answer =  prompt('Agine : What kind of cars did I drive before').toLowerCase(); } 
 
 
 
@@ -296,7 +283,7 @@ let correct2 = 0
 let youranswer = [];
 let cars = ['kia', 'bmw', 'ford'];
 for (let i = 1; i <= 6; i++) {
-  if (answer === cars[0] || answer === cars[1] || answer === cars[3]) {
+  if (answer == cars[]) {
     alert('Great that is the correct answer')
     correct2 = correct2 + 1;
     youranswer.push(answer);
