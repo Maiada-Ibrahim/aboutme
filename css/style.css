@@ -20,4 +20,13 @@ footer{
     color: #3b14a7;
     
   }
-  
+  ol{
+    list-style-type: decimal;
+      margin: 30px;
+  }
+  header nav ul {
+    list-style-type:circle;
+    margin: 30px;
+
+
+  }
