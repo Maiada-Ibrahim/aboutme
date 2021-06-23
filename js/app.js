@@ -1,5 +1,5 @@
 'use strict'
-let username = prompt('To begin play with me ...what is your name ??')
+/*let username = prompt('To begin play with me ...what is your name ??')
 
 alert('welcome to our website   ' + username + ' I think we will play afun game ')
 
@@ -127,7 +127,7 @@ document.write('Oh dear I think it nice game you answer  ' + correct + ' qustion
 
 
 
-
+*/
 
 
 
@@ -160,7 +160,7 @@ for (let i = 1; i <= 4; i++) {
     alert("too high")
   } else if (answer1 > 5) {
     alert('too low ')
-  } else while (!answer1 === 1 || !answer1 === 2 || !answer1 === 3 || !answer1 === 4 || !answer1 === 5 || !answer1 === 6 || !answer1 === 8 || !answer1 === 9 || !answer1 === 10) { answer1 = parseInt(prompt('please enter a number from 1-10(How much do you think I believe in love?)')); }
+  }// else while (!answer1 === 1 || !answer1 === 2 || !answer1 === 3 || !answer1 === 4 || !answer1 === 5 || !answer1 === 6 || !answer1 === 8 || !answer1 === 9 || !answer1 === 10) { answer1 = parseInt(prompt('please enter a number from 1-10(How much do you think I believe in love?)')); }
 
 }
 
@@ -179,7 +179,7 @@ for (let i = 1; i <= 4; i++) {
     alert("too high")
   } else if (answer1 > 4) {
     alert('too low ')
-  } else while (!answer1 === 1 || !answer1 === 2 || !answer1 === 3 || !answer1 === 4 || !answer1 === 5 || !answer1 === 6 || !answer1 === 8 || !answer1 === 9 || !answer1 === 10) { answer1 = parseInt(prompt('please enter a number from 1-10(How much do you think I can swim)')); }
+  }// else while (!answer1 === 1 || !answer1 === 2 || !answer1 === 3 || !answer1 === 4 || !answer1 === 5 || !answer1 === 6 || !answer1 === 8 || !answer1 === 9 || !answer1 === 10) { answer1 = parseInt(prompt('please enter a number from 1-10(How much do you think I can swim)')); }
 
 }
 
@@ -199,7 +199,7 @@ for (let i = 1; i <= 4; i++) {
     alert("too high")
   } else if (answer1 === 1 || answer1 > 6) {
     alert('too low ')
-  } else while (!answer1 === 1 || !answer1 === 2 || !answer1 === 3 || !answer1 === 4 || !answer1 === 5 || !answer1 === 6 || !answer1 === 8 || !answer1 === 9 || !answer1 === 10) { answer1 = parseInt(prompt('please enter a number from 1-10(How much do you think I can swim)')); }
+  }// else while (!answer1 === 1 || !answer1 === 2 || !answer1 === 3 || !answer1 === 4 || !answer1 === 5 || !answer1 === 6 || !answer1 === 8 || !answer1 === 9 || !answer1 === 10) { answer1 = parseInt(prompt('please enter a number from 1-10(How much do you think I can swim)')); }
 
 }
 
@@ -220,7 +220,7 @@ for (let i = 1; i <= 4; i++) {
     alert("too high")
   } else if (answer1 <= 6) {
     alert('too low ')
-  } else while (!answer1 === 1 || !answer1 === 2 || !answer1 === 3 || !answer1 === 4 || !answer1 === 5 || !answer1 === 6 || !answer1 === 8 || !answer1 === 9 || !answer1 === 10) { answer1 = parseInt(prompt('please enter a number from 1-10(How much do you think I can swim)')); }
+  } //else while (!answer1 === 1 || !answer1 === 2 || !answer1 === 3 || !answer1 === 4 || !answer1 === 5 || !answer1 === 6 || !answer1 === 8 || !answer1 === 9 || !answer1 === 10) { answer1 = parseInt(prompt('please enter a number from 1-10(How much do you think I can swim)')); }
 
 }
 
@@ -237,7 +237,7 @@ for (let i = 1; i <= 4; i++) {
     alert("too high")
   } else if (answer < 5 || answer === 10) {
     alert('too low ')
-  } else while (!answer === 1 || !answer === 2 || !answer === 3 || !answer === 4 || !answer === 5 || !answer === 6 || !answer === 8 || !answer === 9 || !answer === 10) { answer = parseInt(prompt('please enter a number from 1-10(How much do you think I can swim)')); }
+  }// else while (!answer === 1 || !answer === 2 || !answer === 3 || !answer === 4 || !answer === 5 || !answer === 6 || !answer === 8 || !answer === 9 || !answer === 10) { answer = parseInt(prompt('please enter a number from 1-10(How much do you think I can swim)')); }
 
 }
 
@@ -252,7 +252,7 @@ for (let i = 1; i <= 4; i++) {
     alert("too high")
   } else if (answer1 > 3) {
     alert('too low ')
-  } else while (!answer1 === 1 || !answer1 === 2 || !answer1 === 3 || !answer1 === 4 || !answer1 === 5 || !answer1 === 6 || !answer1 === 8 || !answer1 === 9 || !answer1 === 10) { answer1 = parseInt(prompt('please enter a number from 1-10(How much do you think I can swim)')); }
+  } //else while (!answer1 === 1 || !answer1 === 2 || !answer1 === 3 || !answer1 === 4 || !answer1 === 5 || !answer1 === 6 || !answer1 === 8 || !answer1 === 9 || !answer1 === 10) { answer1 = parseInt(prompt('please enter a number from 1-10(How much do you think I can swim)')); }
 
 }
 
@@ -295,7 +295,7 @@ alert('youer  answer is  ' + youranswer)
 alert('the correct answer is  ' + cars)
 
 
-
+/*
 
 // q2
 let q2 = prompt('What are the social media applications on Mobily? ').toLowerCase(); 
@@ -447,4 +447,4 @@ for (let i = 1; i <= 6; i++) {
     while (q2 == '') { q2 = prompt('Agine : What applications did we use to coding in 102 Course Code?').toLowerCase(); }
 
   }
-}
+}*/
