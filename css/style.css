@@ -1,3 +1,8 @@
+body {
+  height: 200vh;
+}
+
+
 header div{
     margin: 20px;
     margin-top: 60px; 
@@ -29,4 +34,22 @@ footer{
     margin: 30px;
 
 
+  }
+  header h1  {
+    
+    position:sticky;
+    top: 5vh;
+    
+  }
+  header p  {
+    
+    position:relative;
+    top: 10vh;
+    left: 3vh;
+  }
+  header nav  {
+    
+    position:relative;
+    top: 12vh;
+    left: 0vh;
   }
